@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  <h1 class='main-title'> Select directory
+  <form action='/current'>
+      <select name='folder'>
+         each item in directoryNames
+            <option>#{item.folderName} </option>
+      </select>
+      <input type="submit" value="Select"></p>
+  </form>

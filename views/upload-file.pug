@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  <h1 class='main-title'> Upload file
+  <form class='img-form' action='/upload' enctype="multipart/form-data" method="post">
+     <p><input type="file" name="file" required > <br>
+      <select name='folder'>
+         each item in directoryNames
+            <option>#{item.folderName} </option>
+      </select>
+     <input type="submit" value="Upload"></p>
+  </form>

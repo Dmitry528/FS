@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  <h1 class='main-title'> Files </h1>
+  <div class='cards-container'>
+    each item in allFiles
+      <ul>
+        <li>File with name #{item.originalName} is in #{item.folderPath}</li>
+      </ul>
+  </div>

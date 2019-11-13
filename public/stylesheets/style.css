@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.main-title{
+  text-align: center;
+}
+.main-menu{
+
+}
+.main-menu_item{
+  font-size: 18px;
+  padding: 5px 0px;
+}
+.img-form{
+  display: flex;
+  flex-direction: row;
+}
+.img{
+  display: flex;
+  flex-direction: row;
+}
+.text{
+  text-align: left;
+}
